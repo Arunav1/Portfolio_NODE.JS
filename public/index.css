@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/assets/Body.jpg') ;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    background-image: url('./assets/header_img.jpg');
+    background-size: cover;
+}
+
+header h1{
+    margin: 40px;
+    justify-content: end;
+}
+
+h1, h2 {
+    margin: auto;
+    color: white;
+    display: flex;
+}
+
+footer {
+    background-image: url('/assets/header_img.jpg');
+   display: flex;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: end;
+}
+
+nav ul a{
+    color: #333;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+nav ul a:hover{
+    color: crimson;
+    font-size: 24px;
+}
+
+.intro h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #333;
+    margin: 10px;
+    padding-left: 5px;
+    justify-content: center;
+}
+
+
+
+.intro p{
+    margin: 10px;
+    padding-left: 5px;
+    color: #333;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.resume h1{
+    display: flex;
+    justify-content: center;
+    color: #333;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.resume iframe{
+    justify-content: center;
+    margin-left: 333px;
+}
+
+.service h1, h2 {
+    display: flex;
+    color: #333;
+    justify-content: center;
+}
+
+.frontend section{
+    display: flex;
+    justify-content: center;
+    margin: 0 227px;
+    gap: 10px;
+}
+
+.backend section{
+    display: flex;
+    justify-content: center;
+    margin: 0 227px;
+    gap: 10px;
+}
+
+.footer-links h4{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom{
+    display: flex;
+    color: white;
+    justify-content: end;
+    margin: auto;
+    margin-top: 187px;
+}
+
+.form-container form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 600px;
+}
+
+input{
+    height: 30px;
+}
+
+button{
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.login-container form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 600px;
+}
+
+h4{
+    margin: 0 600px;
+    color: crimson;
+}

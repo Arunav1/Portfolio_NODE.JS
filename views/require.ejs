@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="require.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Requirements</title>
+</head>
+<body>
+    <header>
+        <h1>What do you want us to build ?</h1>
+    </header>
+
+    <nav>
+        <ul>
+          <a href="home">Home</a>
+          <a href="about">About</a>  
+          <a href="projects">Projects</a>
+          <a href="services">Services</a>      
+        </ul>
+    </nav>
+
+    <div class="frontServ">
+        <h3>Frontend Services:</h3><button onClick = "ShowForm()">Click here</button>
+        <div id="dynamicForm"></div>
+    </div>
+
+    <div class="backServ">
+        <h3>Backend Services:</h3><button onClick="ShowForm()">Click here</button>
+        <div id="dynamicForm"></div>
+    </div>
+
+    <div class="fullServ">
+        <h3>Full stack Services:</h3><button onClick="ShowForm()">Click here</button>
+        <div id="dynamicForm"></div>
+    </div>
+
+    <br>]
+
+    <form action="require">
+
+    </form>
+
+    <script>
+        function ShowForm(){
+            const dynamicForm = document.getElementById('dynamicForm');
+            dynamicForm.innerHTML = `
+            <form>
+                <label for="dynamicInput">Dynamic Input:</label>
+                <input type="text" id="dynamicInput" name="dynamicInput" required>
+                <button type="submit">Submit</button>
+            </form>
+            `;
+        
+        }
+    </script>
+
+
+</body>
+</html>
