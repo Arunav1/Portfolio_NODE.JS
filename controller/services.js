@@ -1,5 +1,5 @@
  const services = (req, res) => {
-    res.render('Services.ejs');
+    res.render('services.ejs');
  }
 
  module.exports = services; 
